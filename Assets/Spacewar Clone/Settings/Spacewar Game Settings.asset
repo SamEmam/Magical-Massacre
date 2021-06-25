@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2383f7c2178811b4ba99cfa5ec4f4499, type: 3}
+  m_Name: Spacewar Game Settings
+  m_EditorClassIdentifier: 
+  localUserController: {fileID: 0}
+  otherUserController: {fileID: 0}
+  mode: 0
+  avatarOptions:
+  - {fileID: 8833506872593601754, guid: e4b42ad126f15f842bd06621c84a064d, type: 3}
+  - {fileID: 3480715319039681500, guid: 061c19f17cda3704993c026804f522e2, type: 3}
+  gameManager: {fileID: 0}

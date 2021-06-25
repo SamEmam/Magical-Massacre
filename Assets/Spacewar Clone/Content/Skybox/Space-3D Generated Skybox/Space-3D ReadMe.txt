@@ -1,0 +1,1 @@
+Generated from https://wwwtyro.github.io/space-3d/#animationSpeed=1&fov=80&nebulae=false&pointStars=true&resolution=2048&seed=3ziszwrf2n40&stars=true&sun=false

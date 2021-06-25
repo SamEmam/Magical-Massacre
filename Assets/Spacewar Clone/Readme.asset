@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2dbce110a918f499a4494bce7b85c0, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 9a5dc521372f65d47aa5077047bd5606, type: 3}
+  iconMaxWidth: 128
+  title: A Spacewar Clone by Heathen Engineering
+  sections:
+  - heading: Requirements - Steamworks Complete
+    text: Heathen Engineering's Spacewar is built on and demonstrates the use of Heathen's
+      Steamworks Complete package.
+    linkText: Steamworks Complete
+    url: https://assetstore.unity.com/packages/tools/integration/steamworks-complete-123784
+  - heading: Requirements - Mirror
+    text: Heathen Engineering's Spacewar leverages the Mirror HLAPI with the Heathen
+      SteamP2PTransport and SteamGameServerTransport.
+    linkText: Mirror
+    url: https://assetstore.unity.com/packages/tools/network/mirror-129321?aid=1101lGvV
+  - heading: Requirements- Cinemachine
+    text: Heathen Engineering's Spacewar makes use of Cinemachine virtual cameras
+      for all camera control.
+    linkText: 'Cinemachine: Getting Started'
+    url: https://www.youtube.com/watch?v=x6Q5sKXjZOM&list=PLX2vGYjWbI0TQpl4JdfEDNO1xK_I34y8P
+  - heading: Requirements - Text Mesh Pro
+    text: Heathen Engineering's Spacewar makes use of Text Mesh Pro. Please see the
+      package manager for Text Mesh Pro download.
+    linkText: 
+    url: 
+  - heading: Running The Game in Editor
+    text: Open the main.scene in the editor and hit the simulate/play button.
+    linkText: 
+    url: 
+  - heading: Running The Game in Build
+    text: Insure you have added the main, title and gameplay scenes to the build settings
+      in that order. Hit build and wait for the build to complete, once the build
+      has completed locate the steam_appid.txt in the root of the project and make
+      a copy of it in the root of your build.
+    linkText: 
+    url: 
+  - heading: Server Build
+    text: To build a server simply mark the Server build option in the build settings.
+      Remimber to create a text file named steam_appid.txt in your build folder and
+      populate the text file with "480" (dont use quotes). To insure the Steam API
+      doesn't attempt to close and relaunch the app. Now run your new build and you
+      should be able to observer in Steam Server Browser that Heathen's Spacewar game
+      server populates ass a LAN server option.
+    linkText: 
+    url: 

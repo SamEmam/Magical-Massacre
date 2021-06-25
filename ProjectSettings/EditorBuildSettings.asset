@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Spacewar Clone/Scenes/0 main.unity
+    guid: c68b81b0aab747343b40089cda306054
+  - enabled: 0
+    path: Assets/Spacewar Clone/Scenes/1 title.unity
+    guid: 1929c8fc47cb1d941a62f5c5e7fbeef5
+  - enabled: 0
+    path: Assets/Spacewar Clone/Scenes/2 gameplay.unity
+    guid: 824c493d38f57704da57d5fe8a925069
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Scene Normcore.unity
+    guid: 465fc837e6f21d64b92946925d486c43
+  - enabled: 1
+    path: Assets/Scenes/TownScene.unity
+    guid: 92deb9f7a4cd11c4095b52107cf7d881
+  m_configObjects: {}

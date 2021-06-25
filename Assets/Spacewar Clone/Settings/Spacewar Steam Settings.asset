@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb51f5127d20e04d9b75e83fbcf7d9f, type: 3}
+  m_Name: Spacewar Steam Settings
+  m_EditorClassIdentifier: 
+  EnableGameServerInit: 1
+  UserData: {fileID: 11400000, guid: 5e8496d221b4ec84babbd7eee602749a, type: 2}
+  ApplicationId:
+    m_AppId: 480
+  LastKnownPlayerCount: 0
+  stats:
+  - {fileID: 11400000, guid: b9f92296ccbaf2f429121c6dc824d888, type: 2}
+  - {fileID: 11400000, guid: 76b8d53298c2c034b93e27f932661625, type: 2}
+  - {fileID: 11400000, guid: 3754fe3ee1d086a48ba12a7a0755198e, type: 2}
+  - {fileID: 11400000, guid: 56991c5c726322e4e8f649d425f46648, type: 2}
+  - {fileID: 11400000, guid: 8cf7a7b28244e114cae2d262c635ac7f, type: 2}
+  - {fileID: 11400000, guid: d84330652b18e9e4f83ce244a567f90d, type: 2}
+  achievements:
+  - {fileID: 11400000, guid: cdd3cdc9a98f6374ca51291115de5059, type: 2}
+  - {fileID: 11400000, guid: 2180f54391b8a6c40b827dbfcbffa2fa, type: 2}
+  - {fileID: 11400000, guid: aca4dfb73b3bdcf47bb8896694443538, type: 2}
+  - {fileID: 11400000, guid: 9efe0e207fcb19040b9268c6208d10d5, type: 2}
+  NotificationPosition: 3
+  NotificationInset: {x: 0, y: 0}
+  OnAvatarLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPersonaStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserStatsReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserStatsStored:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOverlayActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAchievementStored:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRecievedFriendChatMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNumberOfCurrentPlayersResult:
+    m_PersistentCalls:
+      m_Calls: []

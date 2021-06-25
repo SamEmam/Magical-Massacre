@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faee4f1fb184adb43bfbc4077a2e0aa1, type: 3}
+  m_Name: Spacewar Ship Weapon 2
+  m_EditorClassIdentifier: 
+  DeveloperDescription: "See the original source Inventory.h file line 19 \nfor where
+    we got this information"
+  DefinitionID:
+    m_SteamItemDef: 111
+  Recipes: []
+  uiIcon: {fileID: 0}
+  displayName: Weapon 2
+  description: Spacewar ship weapon 2
+  itemType: 1

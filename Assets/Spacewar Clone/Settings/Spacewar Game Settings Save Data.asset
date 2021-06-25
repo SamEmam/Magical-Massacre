@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50e8e7d2fe54ef458eeba99f4e9a3d1, type: 3}
+  m_Name: Spacewar Game Settings Save Data
+  m_EditorClassIdentifier: 
+  DeveloperDescription: Represents the game settings file
+  Library:
+  - Key: Master Volume
+    Variable: {fileID: 11400000, guid: 4db12c4195132ed43a1d7ec8ab7533d0, type: 2}
+    Default: {fileID: 11400000, guid: 2ab098dc9b8325e4aabb71ba55b4c05b, type: 2}
+  - Key: Game Volume
+    Variable: {fileID: 11400000, guid: 92414f8714d36eb4996606ac8f4d5f25, type: 2}
+    Default: {fileID: 11400000, guid: 8b29922381e670a4b96f12e8760d5246, type: 2}
+  - Key: Music Volume
+    Variable: {fileID: 11400000, guid: 39d1e40414b73754bb188add3a6a58b9, type: 2}
+    Default: {fileID: 11400000, guid: 1d657ab5e4434604db762e4e520b71af, type: 2}
+  - Key: Sound Effect Volume
+    Variable: {fileID: 11400000, guid: 1135c83c16f60fb43abff89045f3df78, type: 2}
+    Default: {fileID: 11400000, guid: 3332727a2c9156f4c9fcda151a0a45e9, type: 2}
+  - Key: Interface Volume
+    Variable: {fileID: 11400000, guid: 54d7c06ea3aa22c4091aea9500e289a7, type: 2}
+    Default: {fileID: 11400000, guid: 4d5f54c04a3e08f43be619df52c962eb, type: 2}
+  - Key: Voice Volume
+    Variable: {fileID: 11400000, guid: 30d539d2bf47c734bb3e7f5c96cafe78, type: 2}
+    Default: {fileID: 11400000, guid: 5f6c43c6ef1280d44877b4a1aebadaa0, type: 2}
+  filePrefix: settings_
+  activeFile:
+    address:
+      fileIndex: 0
+      fileSize: 0
+      fileName: 
+    binaryData: 
+    result: 22
+    linkedLibrary: {fileID: 0}
+  availableFiles: []
